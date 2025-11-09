@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# saved model files (do not push large weights)
+saved_summary_model/*.safetensors
+saved_summary_model/*.bin
+saved_summary_model/model.*
+saved_summary_model/*.pt
+
+# other
+.DS_Store
+*.log
